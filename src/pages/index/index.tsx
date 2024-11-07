@@ -1,6 +1,7 @@
 import { Component, PropsWithChildren } from 'react'
 import { View, Button, Text } from '@tarojs/components'
 import { observer, inject } from 'mobx-react'
+import HelloWorld from '../../components/HelloWorld';
 
 import './index.scss'
 
@@ -53,6 +54,7 @@ class Index extends Component<PropsWithChildren> {
         <Button onClick={this.decrement}>-</Button>
         <Button onClick={this.incrementAsync}>Add Async</Button>
         <Text>{counter}</Text>
+        <HelloWorld></HelloWorld>
       </View>
     )
   }
