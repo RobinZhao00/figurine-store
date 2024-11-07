@@ -1,0 +1,9 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "figurine-store",
+  "appid": "wxbc05bab7d8506f02",
+  "setting": {
+    "es6": false,
+    "minified": false
+  }
+}
